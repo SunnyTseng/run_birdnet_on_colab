@@ -2,7 +2,7 @@
 title: "BirdNET instruction"
 author: "Sunny Tseng"
 date: "2023-02-06"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
