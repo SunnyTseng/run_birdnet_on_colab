@@ -1,5 +1,5 @@
 ---
-title: "BirdNET on Colab instruction"
+title: "BirdNET instruction"
 author: "Sunny Tseng"
 date: "2023-02-06"
 output: github_document
