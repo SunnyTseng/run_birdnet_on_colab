@@ -12,20 +12,20 @@ knitr::opts_chunk$set(echo = TRUE)
 ### Pre-requisite
 
 #### Google Colab (https://colab.research.google.com/)
-You will need to sign in Google Colab to get access to the computational resources provided by Google. Basically, if you have a gmail account, you are all set. Enter the Google Colab webpage, then click the blue botton "Sign in" at the upper right corner. Enter your gmail and password, and you should be brought to the Colab main page.
+You will need to sign in to Google Colab to get access to the computational resources provided by Google. If you have a Gmail account, you are all set. Enter the Google Colab webpage, then click the blue button "Sign in" at the upper right corner. Enter your Gmail and password, and you should be brought to the Colab main page.
 
 #### Google Drive (https://www.google.com/intl/en_ca/drive/)
-Here is where you are going to store the audio files that going to be analyzed by the BirdNET. Create a folder called "BirdNET_audio", then drag your audio file into the folder. 
+Here is where you are going to store the audio files that going to be analyzed by BirdNET. Create a folder called "BirdNET_audio", then upload your audio file(s) into the folder. 
 
 #### Python Notebook 
-Download the python code that is provided in this Github repository.
+Download the python script "BirdNET_Lite_JPRF.ipynb" that is provided in this Github repository.
 
 
 ### Analysis
 
-- Open the python notebook in Google Colab by clicking "File" -> "Open notebook" -> "Upload", then locate the python code that you just downloaded. The file should be opened afterwards. 
+- Open the python notebook in Google Colab by clicking "File" -> "Open notebook" -> "Upload", then locate the python code that you just downloaded. 
 
-- Run the first two chunks of code - the first chunk is to load the libraries, and the second chunk is to connect your google drive with the colab remote server. Here is what you should see:
+- Run the first two chunks of code - the first chunk is to load the libraries, and the second chunk is to connect your Google drive with the Colab remote server. Here is what you should see:
 
 ```{r, eval = FALSE}
 Mounted at /content/gdrive
@@ -41,9 +41,9 @@ Unpacking objects: 100% (29/29), 58.09 MiB | 10.00 MiB/s, done.
 
 - Run the third chunk of the code to change the current working directory to "BirdNET-Lite"
 
-- Now we are at the firth chunk of the code, modify the directory of the audio file that you want to process. Basically, change "YOUR AUDIO FOLDER" and "YOUR AUDIO FILE" according to your file. 
+- Now we are at the firth chunk of the code, modify the directory of the audio file that you want to process. Change "YOUR AUDIO FILE" according to your file name. 
 
-- Run the forth chunk of the code. You should see something like this if you successed :) 
+- Run the forth chunk of the code. You should see something like this if you succeed :) 
 
 ```{r, eval = FALSE}
 INFO: Created TensorFlow Lite delegate for select TF ops.
@@ -58,24 +58,8 @@ WRITING RESULTS TO BirdNET_output.txt ... DONE! WROTE 5 RESULTS.
 ```
 
 
+- If you are still following, congrats! Now to look up your result, go back to the left panel where you can see the file structure. Click on the "BirdNET-Lite" folder. There should be a file named "result.txt" or "result.csv". Double-click on that file and you will be able to see the result. 
 
+- If you want to save the result locally, click on the three-dot sign at the upper right corner of the result table, then select "Download". 
 
-
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+### Well done :) 
