@@ -1,23 +1,17 @@
 BirdNET instruction
 ================
 Sunny Tseng
-2023-02-06
+2023-04-17
 
 ### Pre-requisite
 
 #### Google Colab (<https://colab.research.google.com/>)
 
-You will need to sign in to Google Colab to get access to the
-computational resources provided by Google. If you have a Gmail account,
-you are all set. Enter the Google Colab webpage, then click the blue
-button “Sign in” at the upper right corner. Enter your Gmail and
-password, and you should be brought to the Colab main page.
+You will need to sign in to Google Colab to get access to the computational resources provided by Google. If you have a Gmail account, you are all set. Enter the Google Colab webpage, then click the blue button “Sign in” at the upper right corner. Enter your Gmail and password, and you should be brought to the Colab main page.
 
 #### Google Drive (<https://www.google.com/intl/en_ca/drive/>)
 
-Here is where you are going to store the audio files that going to be
-analyzed by BirdNET. Create a folder called “BirdNET_audio”, then upload
-your audio file(s) into the folder.
+Here is where you are going to store the audio files that going to be analyzed by BirdNET. Create a folder called “BirdNET_audio”, then upload your audio file(s) into the folder.
 
 #### Python Notebook
 
