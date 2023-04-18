@@ -15,7 +15,7 @@ Here is where you are going to store the audio files that going to be analyzed b
 
 #### Python Notebook
 
-Download the python script [BirdNET_Lite_JPRF.ipynb](./BirdNET_Lite_JPRF.ipynb) that is provided in this Github repository.
+Download the python script [BirdNET_Lite_JPRF.ipynb](./BirdNET_Lite_JPRF.ipynb) that is provided in this Github repository. Or, you can click on the `Open in Colab` botton once you open the `ipynb` file on Github. 
 
 ### Analysis
 
@@ -55,7 +55,7 @@ WRITING RESULTS TO BirdNET_output.txt ... DONE! WROTE 5 RESULTS.
 
 ### Combine all `.csv` files into one metadata
 
-- To combine the `.csv` files into only one file, download the `BirdNET_WAV_output` into your computer. Put the folder at the same working directory with the R code `group_BirdNET_output.R`. 
+- To combine the `.csv` files into only one file, download the `BirdNET_WAV_output` into your computer. Put the folder at the same working directory with the R code [group_BirdNET_output.R](./group_BirdNET_output.R). 
 
 - Run the the `group_BirdNET_output.R` in RStudio then you will get the final combined object, which is called `data_full_format`. Here is how the data should look like:
 
